@@ -1,0 +1,43 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: auto;
+  }
+  #title{
+    font-size: 50px;
+  }
+  h1{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+  }
+  @media (max-width: 800px) {
+    h1 {
+      font-size: 3.5rem;
+      line-height: 1;
+    }
+  }
+  img{
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  @media (max-width: 800px) {
+    #img-caption {
+      font-size: 1.2rem;
+    }
+  }
+  #quote{
+    position: left;
+    width: 100px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  #img-caption{
+  font-family: 'Bebas Neue', cursive;  
+    font-size: 37px;
+  }
+  #tribute-link{
+    color: green;
+  }
